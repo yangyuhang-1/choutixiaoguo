@@ -1,38 +1,52 @@
-/* 标题区域，60*280 内容区域(图片)520*280 */
+img{
+	width: 590px;
+	height: 470px;
+}
 .ctboxs{
-	width: 751px;
-	height: 280px;
+	width:830px;
+	height: 470px;
 	position: relative;
 	overflow: hidden;
-	border:5px solid orange;
+  
 }
-.ctboxs .ctbox {
-	width: 593px;
-	height: 280px;
+.ctboxs .ctbox{
+	width: 650px;
+	height: 470px;
 	display: flex;
 	position: absolute;
-	top: 0;
+	transition: 2s;
 }
-.ctboxs .ct1{left: 0;}
-.ctboxs .ct2{left:593px ;}
-.ctboxs .ct3{left: 649px;}
-.ctboxs .ct4{left: 705px;}
-.ctboxs .ctbox .title {
-	color: #fff;
+.ctboxs .ctbox .title{
 	font-size: 22px;
-	line-height: 25px;
-	padding: 65px 17px 0;
+	padding: 130px 19px 0;
+	line-height: 36px;
+	color: white;
 	cursor: pointer;
+
 }
-.ctboxs .ct1 .title {
-	background: rgb(0, 0, 127);
+.ctboxs .ct1 .title{
+	background: #00007F;
 }
-.ctboxs .ct2 .title {
-	background: rgb(238, 136, 0);
+.ctboxs .ct2 .title{
+	background: #EE8800;
 }
-.ctboxs .ct3 .title {
-	background: rgb(126, 127, 0);
+.ctboxs .ct3 .title{
+	background: #7F7F00;
 }
-.ctboxs .ct4 .title {
-	background: rgb(35, 97, 173);
+.ctboxs .ct4 .title{
+	background: #2361AD;
 }
+.ctboxs .ct1{
+	left: 0;
+	transition: 2s;
+}
+.ctboxs .ct2{
+	left: 650px;
+}
+.ctboxs .ct3{
+	left: 710px;
+}
+.ctboxs .ct4{
+	left: 770px;
+}
+
